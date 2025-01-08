@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .open-sans-normal {
   font-family: "Open Sans", serif;
@@ -8,6 +12,10 @@
 }
 
 /* shared style */
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -24,15 +32,33 @@
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+    margin: 10px;
+    
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
 
 }
 
 /* header */
 .header{
-    background-image: url("../images/developer.png"), url('../images/header_bg.png');
+    background-image:  url("../images/developer.png") , url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    height: fit-content;
+    width: screen;
+    padding-bottom: 20px;
+    margin-top: 20px
 }
+
 
 /* Nav Styles */
 nav{
@@ -68,29 +94,63 @@ nav li a {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
+    text-align: start;
+    
 }
 
 
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 5px;
+      
 }
 
 .banner-content{
     max-width: 580px;
+    padding-top: 182px;
 }
 
 .banner-title{
     font-weight: 700;
     font-size: 85px;
+    text-align: start;
 }
 
 .banner-description{
     font-weight:300;
     font-size: 18px;
+    margin-bottom: 10px;
+    text-align: start;
 }
 
 .banner-pic{
     height: 676px;
     width: 584px;
+}
+
+/* main styles */
+
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+     padding: 130px 150px;
+     text-align: center;
+     margin-top: 130px;
+}
+
+.item-description{
+    font-weight: 600;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
