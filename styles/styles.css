@@ -36,6 +36,13 @@
     
 }
 
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: #ff862a;
+
+
+}
+
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -174,4 +181,115 @@ nav li a {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0pc rgba(0, 0, 0, 0.06);
+}
+
+/* resume styles */
+
+.section-title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 30px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+
+.experience-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgba(117, 117, 117, 1)
+    
+}
+.experience-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgba(117, 117, 117, 1)
+}
+.resume-download-cv{
+    margin-top: 30px;
+}
+.btns{
+    padding-bottom: 150px;
+}
+.do-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+/* footer styles */
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+.footer-column{
+    width: 65%;
+}
+
+.about-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.about-icon {
+    margin-bottom: 472px;
+    display: flex;
+    gap: 15px;
+}
+
+.input-name {
+   
+    background-color: white;
+    color: gray;
+    border: none;
+    padding: 14px 10px;
+    border-radius: 1px;
+    width: 380px;
+    
+    
+    
+}
+
+.input-box {
+    padding: 14px 10px;
+    width: 380px;
+    height: 180px;
+
+}
+
+.mb{
+    margin-bottom: 10px;
 }
